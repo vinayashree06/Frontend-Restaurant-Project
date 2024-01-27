@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="registration.css" />
+  <title>Patient Registration</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav__logo">Health Record Management</div>
+      <ul class="nav__links">
+        <li class="link"><a href="#">Hospital Registration</a></li>
+        <li class="link"><a href="#">Patient Registration</a></li>
+        <li class="link"><a href="#">View records</a></li>
+        <li class="link"><a href="#"></a></li>
+        <li class="link"><a href="#">About</a></li>
+        <li class="link"><a href="#">Contact</a></li>
+      </ul>
+      <button class="btn">Register Now</button>
+    </nav>
+
+    <div class="registration-form">
+      <div class="form-container">
+        <h2>Patient Registration</h2>
+        <form action="#" method="post">
+          <label for="patientName">Patient Name:</label>
+          <input type="text" id="patientName" name="patientName" required>
+
+          <label for="patientAge">Age:</label>
+          <input type="number" id="patientAge" name="patientAge" required>
+
+          <label for="patientGender">Gender:</label>
+          <select id="patientGender" name="patientGender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="patientContact">Contact Number:</label>
+          <input type="tel" id="patientContact" name="patientContact" required>
+
+          <button type="submit" class="btn">Register Patient</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

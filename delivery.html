@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="deliverystyle.css">
+    </head>
+    <body>
+<section>
+     
+  
+<div class="checkout-panel">
+  <div class="panel-body">
+    <h2 class="title">Delivery address</h2>
+ 
+    <div class="progress-bar">
+      <div class="step"></div>
+      <div class="step "></div>
+      <div class="step"></div>
+      
+      
+    </div>
+<div class="input-fields">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+  
+
+          <div class="row">
+            <div class="col-50">
+            
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name">
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="Enter you emailId">
+              <label for="adr"><i class="fa fa-address-card-o" aria-hidden="true"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="Enter your Address">
+              <label for="city"><i class=""></i> City</label>
+              <input type="text" id="city" name="city" placeholder="Enter your City">
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="Enter your ZIP code">
+                </div>
+              </div>
+            </div>
+            
+ </div>  
+ <div class="panel-footer">
+    <button class="btn back-btn"><a href="home.html">Back</a></button>
+    <button class="btn next-btn"> <a href="payment.html">Next Step</a></button>
+    <script type="text/javascript">
+    document.getElementById("Next Step").onclick = function () {
+        location.href = 'payment.html';
+    };
+	</script>
+</body>
+</html>
+ 
+	
+ 
+
+ 
